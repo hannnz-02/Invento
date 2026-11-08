@@ -1,0 +1,25 @@
+
+# Environment dan konfigurasi rahasia
+.env
+.env.*
+
+# Cache dan log
+/writable/cache/*
+!/writable/cache/index.html
+/writable/cache/.gitkeep
+
+/writable/logs/*
+!/writable/logs/index.html
+!/writable/logs/.gitkeep
+
+# Session dan file sementara
+/writable/session/*
+/writable/debugbar/*
+
+# Dependencies
+/vendor/
+
+# Sistem operasi dan editor
+.DS_Store
+Thumbs.db
+.vscode/
